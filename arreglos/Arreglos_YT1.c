@@ -12,7 +12,7 @@ int main(){
 		
 		printf("Dame la calificación %d", i+1); 
 		scanf("%f",&calificaciones[i]);
-		promedio +=calificaciones[i];
+		promedio +=calificaciones[i]; //promedio calificaciones
 		printf("\n");
 	}
 	
