@@ -1,0 +1,24 @@
+ #include <stdio.h>
+
+ int main(){
+
+    int n, calificacion, k=0;
+    char Nombres[30];
+
+    printf("Digite el numero de estudiantes que hay en la lista: "); scanf("%d",&n);
+
+    do{
+
+        printf("Nombre del alumno: "); scanf("%s",&Nombres);
+        printf("Digite 1)Si aprobo 2)Si rebrobo"); scanf("%d",&calificacion);
+
+    }while(k<=0);{
+        k++;
+
+
+    }
+
+
+
+
+ }
